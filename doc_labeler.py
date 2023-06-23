@@ -135,7 +135,7 @@ def main():
     bigpred = pd.DataFrame(columns=of_interest)
     bigpred = bigpred.assign(name=pd.Series(),sentence=pd.Series())
     for idx in range(0,testnumber):
-        filepath = f"C:/Users/jaket/Documents/Projects/Brazil Platforms/txt/{files[idx]}"
+        filepath = f"txt/{files[idx]}"
 
         #Tokenize new platform, generate sentence embeddings
         sents = doc_tokenizer(filepath)
