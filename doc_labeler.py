@@ -123,7 +123,7 @@ def main():
         validate(model, test_dataset, test_dataloader)
 
     #CHANGE DIRECTORY
-    files = os.listdir("C:/Users/jaket/Documents/Projects/Brazil Platforms/txt")
+    files = os.listdir("txt")
 
     #Read in txt files
     files = [name for name in files if ".txt" in name]
